@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Coke Website (Soda)</title>
+  </head>
+  <body>
+    <section class="section">
+      <header>
+        <a href="#"><img src="img/cokelogo.png" class="logo"></a>
+        <div class="toggleMenu" onclick="menuToggle();"></div>
+        <ul class="menunavigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="##">Products</a></li>
+          <li><a href="##">New Products</a></li>
+          <li><a href="##">Newsletter</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>Together..<br><span>Tastes Better</span></h2>
+          <p>Maecenas egestas duis fames hac volutpat nec.
+            Ipsum habitasse nascetur porta in leo a hac eleifend.
+            Elit tincidunt gravida eget semper.
+            Ac ipsum, condimentum proin. Sociis erat allador.</p>
+            <a href="#">View All Products</a>
+        </div>
+        <div class="imgBox">
+          <img src="img/main.png" class="coke">
+        </div>
+      </div>
+      <ul class="thumbnail">
+        <li><img src="img/can1.png" onclick="imgSlider('img/can1.png');changeBgColor('#db0f04')"></li>
+        <li><img src="img/can2.png" onclick="imgSlider('img/can2.png');changeBgColor('#e8e4e3')"></li>
+        <li><img src="img/can3.png" onclick="imgSlider('img/can3.png');changeBgColor('#292828')"></li>
+      </ul>
+      <ul class="social">
+        <li><a href="#"><img src="img/ig.png" ></a></li>
+        <li><a href="#"><img src="img/fb.png"></a></li>
+        <li><a href="#"><img src="img/twitt.png"></a></li>
+      </ul>
+    </section>
+
+
+<script src="main.js"></script>
+  </body>
+</html>
